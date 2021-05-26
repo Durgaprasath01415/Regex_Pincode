@@ -8,7 +8,7 @@ public class PinCode {
         String patternNum = "^[0-9]{6}$";
         System.out.println( pinCode+ " : " +checkpattern(pinCode,patternNum));
         String pinCode1 = "A400088";
-        String patternNum1 = "(^[0-9]{6})";
+        String patternNum1 = "(^[0-9]{1})";
         System.out.println( pinCode1+ " : " +checkpattern(pinCode1,patternNum1));
 
 
