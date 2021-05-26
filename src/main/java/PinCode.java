@@ -11,6 +11,9 @@ public class PinCode {
         String pinCode1 = "A400088";
         String patternNum1 = "(^[0-9]{1})";
         System.out.println( pinCode1+ " : " +checkpattern(pinCode1,patternNum1));
+        String pinCode2 = "400088B";
+        String patternNum2 = "($[0-9]{1})";
+        System.out.println( pinCode2+ " : " +checkpattern(pinCode2,patternNum2));
 
 
     }
